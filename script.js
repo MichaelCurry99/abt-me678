@@ -62,7 +62,7 @@ while(userAns != "no")
 {
   wrongAns.push(1)
     alert('Incorrect...');
-    userAns = prompt("Is ther 100 letters in the Alphabet?");
+    userAns = prompt("Is there 100 letters in the Alphabet?");
 }
 alert("Wow...Just wow!")
 //
