@@ -1,5 +1,3 @@
-'use strict';
-
 thinkNum = 13;
 let wrongAns = [];
 
