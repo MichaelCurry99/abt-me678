@@ -2,10 +2,10 @@ thinkNum = 13;
 let wrongAns = [];
 
 var loggedin = false;
-var attempt = 5;
+var attempt = 4;
 while(!loggedin && attempt > 0){
-var userAns = prompt("Think of a number between 1 and 15").toLowerCase();
- if(userAns=="13" || userAns== "Thirteen"){
+var userAns = prompt("Think of a number between 1 and 3").toLowerCase();
+ if(userAns=="2" || userAns== "two"){
    loggedin = true;
  }
  else
@@ -28,7 +28,7 @@ userAns = prompt("I'd like to ask you some questions, is that ok?");
 alert("Ok, let's move along please!");
 //
 var loggedin = false;
-var attempt = 5;
+var attempt = 6;
 while(!loggedin && attempt > 0){
 var userAns = prompt("Am I a guy?").toLowerCase();
  if(userAns=="yes" || userAns== "Yes"){
@@ -47,7 +47,7 @@ if( attempt == 0)
 }
 
 var loggedin = false;
-var attempt = 5;
+var attempt = 6;
 while(!loggedin && attempt > 0){
 var userAns = prompt("Do I like dogs?").toLowerCase();
  if(userAns=="yes" || userAns== "Yes"){
@@ -66,7 +66,7 @@ if( attempt == 0)
 }
 
 var loggedin = false;
-var attempt = 5;
+var attempt = 6;
 while(!loggedin && attempt > 0){
 var userAns = prompt("Can anyone grow long hair?").toLowerCase();
  if(userAns=="yes" || userAns== "Yes"){
@@ -87,9 +87,9 @@ if( attempt == 0)
 //
 
 var loggedin = false;
-var attempt = 5;
+var attempt = 6;
 while(!loggedin && attempt > 0){
-var userAns = prompt("Is ther 100 letters in the Alphabet?").toLowerCase();
+var userAns = prompt("Is there 100 letters in the Alphabet?").toLowerCase();
  if(userAns=="no" || userAns== "No"){
    loggedin = true;
  }
@@ -105,7 +105,7 @@ if( attempt == 0)
 }
 }
 //
-var attempt = 5;
+var attempt = 6;
 while(!loggedin && attempt > 0){
 var userAns = prompt("Do you speak another language?").toLowerCase();
  if(userAns=="Yes" || userAns== "No"){
@@ -126,9 +126,9 @@ if( attempt == 0)
 let thisArray = [4,6,8,10];
 
 var loggedin = false;
-var attempt = 5;
+var attempt = 6;
 while(!loggedin && attempt > 0){
-var userAns = prompt("How many fingers did I have up? Even numbers between 2 and 12.").toLowerCase();
+var userAns = prompt("How many fingers did I have up? Four even numbers between 2 and 12.").toLowerCase();
  if(userAns== thisArray){
    loggedin = true;
  }
