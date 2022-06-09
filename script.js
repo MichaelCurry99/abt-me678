@@ -15,7 +15,7 @@ alert("You have left "+attempt+" attempt;");
 if( attempt == 0)
  {
   wrongAns.push(1);
-   alert('The answer is yes');
+   alert('The answer is 2');
  }
 }
 }
