@@ -1,1 +1,2 @@
-# Hello this is about me
+# ReadME
+Michael was the nav and Curtrick was the driver
